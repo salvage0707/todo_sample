@@ -35,6 +35,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# 以下追加------------------------------------------------
+# Materialize
+gem 'jquery-rails'
+gem 'materialize-sass'
+gem 'material_icons'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
